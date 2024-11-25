@@ -51,8 +51,10 @@ button:focus {
   color: black;
 }
 
-.Next button:hover,
-button:focus {
+.Next button a:hover,
+button a:focus {
   filter: brightness(200%);
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
