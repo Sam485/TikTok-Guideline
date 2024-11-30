@@ -9,10 +9,10 @@ function Clear(){
 }
 
 let ck=document.getElementById("check").onclick=function btn(){
-        text.textContent="Thank you for your Support!😊";
+        text.textContent="សូមអរគុណចំពោះការគាំទ្ររបស់អ្នក។!😊";
         Clear();
 }
 
 let ck1=document.getElementById("check1").onclick=function btn1(){
-    text.textContent="Fuck you, Choose again!🤬";
+    text.textContent="ជ្រើសរើសម្តងទៀត!🤬";
 }
