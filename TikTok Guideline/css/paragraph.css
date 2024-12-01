@@ -4,12 +4,22 @@
   display: flex;
   flex-flow: column nowrap;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   scroll-margin: 5rem;
 }
 
 .Paragraph p {
   font-size: 0.75rem;
+}
+
+.Paragraph h1,
+h2 {
+  text-decoration: underline;
+}
+
+.Paragraph li {
+  list-style-type: none;
+  padding-left: 1rem;
 }
 
 .Paragraph a {
@@ -24,8 +34,13 @@ a:focus {
 
 .Paragraph span {
   text-decoration: underline;
+  color: red;
 }
 
 .Paragraph sub {
   color: rgb(211, 211, 211);
+}
+
+.Paragraph i {
+  color: red;
 }
