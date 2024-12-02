@@ -9,7 +9,7 @@ function Clear(){
 }
 
 let ck=document.getElementById("check").onclick=function btn(){
-        text.textContent="សូមអរគុណចំពោះការគាំទ្ររបស់អ្នក។!😊";
+        text.textContent="សូមអរគុណចំពោះការគាំទ្ររបស់អ្នក!😊";
         Clear();
 }
 
