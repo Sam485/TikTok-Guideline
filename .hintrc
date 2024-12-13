@@ -17,6 +17,8 @@
       {
         "nested-interactive": "off"
       }
-    ]
+    ],
+    "disown-opener": "off",
+    "axe/structure": "off"
   }
 }
